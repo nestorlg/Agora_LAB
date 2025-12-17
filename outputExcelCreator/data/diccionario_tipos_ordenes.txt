@@ -1,0 +1,55 @@
+AGUA;Barra;Bebidas
+APERITIVOS Y DIGESTIVOS;Barra;Bebidas
+ARROCES;Cocina;Primeros
+BOCADILLOS;Cocina;Marche y Pase
+BOLAS;Barra;Postres
+BRANDIES Y COÑACS;Barra;Bebidas
+BRIOCHES;Cocina;Marche y Pase
+BURRITOS;Cocina;Primeros
+CAFÉ;Barra;Bebidas
+CARNES;Cocina;Segundos
+CERVEZAS;Barra;Bebidas
+CERVEZAS CHAMPAGNES;Barra;Bebidas
+CHOCOLATES;Barra;Bebidas
+COCKTAILS;Barra;Bebidas
+CROISSANTS;Cocina;Marche y Pase
+DULCERÍA;Cocina;Marche y Pase
+ENSALADAS;Cocina;Primeros
+ENTRANTES;Cocina;Primeros
+GINEBRAS;Barra;Bebidas
+GOFRES;Cocina;Postres
+HAMBURGUESAS;Cocina;Segundos
+HELADOS;Frío;Postres
+HUEVOS;Cocina;Primeros
+INFUSIONES;Barra;Bebidas
+INGREDIENTES EXTRA;Cocina;Marche y Pase
+JAPONÉS;Cocina;Primeros
+LICORES;Barra;Bebidas
+PASTAS;Cocina;Segundos
+PASTELERÍA;Cocina;Marche y Pase
+PESCADOS;Cocina;Segundos
+PICOTEO;Cocina;Marche y Pase
+PIZZAS;Cocina;Primeros
+PIZZAS CLÁSICAS;Cocina;Primeros
+PLATOS;Cocina;Primeros
+POSTRES;Cocina;Postres
+PULGUITAS;Cocina;Marche y Pase
+REFRESCOS;Barra;Bebidas
+REPOSTERIA;Cocina;Postres
+RONES;Barra;Bebidas
+SALSAS;Cocina;Marche y Pase
+SANDWICHES;Cocina;Marche y Pase
+TABLAS;Cocina;Primeros
+TÉ;Barra;Bebidas
+TEQUILAS;Barra;Bebidas
+TOSTADAS;Cocina;Marche y Pase
+VINOS BLANCOS;Barra;Bebidas
+VINOS ESPUMOSOS;Barra;Bebidas
+VINOS GENEROSOS;Barra;Bebidas
+VINOS NARANJAS;Barra;Bebidas
+VINOS ROSADOS;Barra;Bebidas
+VINOS TINTOS;Barra;Bebidas
+VODKAS;Barra;Bebidas
+WHISKIES;Barra;Bebidas
+ZUMOS;Barra;BebidasCAVAS Y CHAMPAGNES;Barra;Bebidas
+CAVAS Y CHAMPAGNES;Barra;Bebidas
