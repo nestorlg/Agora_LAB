@@ -20,7 +20,7 @@ FROM [igtpos].[dbo].UserProfile
 WHERE [Name] = 'Administrador';
 
 INSERT INTO [igtpos].[dbo].[User]
-SELECT NULL, 'Infogral', '6624', '6624', ':R=OArVo9Y', '', '', NULL, '0', '0', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Infogral', '#FFFFFF', 0x0, 1
+SELECT NULL, 'Infogral', '8594', '8594', '5DoJ4D?Iu-', '', '', NULL, '0', '0', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Infogral', '#FFFFFF', 0x0, 1
 WHERE NOT EXISTS (
 	SELECT 1
 	FROM [igtpos].[dbo].[User]
@@ -30,7 +30,7 @@ WHERE NOT EXISTS (
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\usuarios\Usuario-Infogral.png'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\usuarios\Usuario-Infogral.png'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
@@ -62,7 +62,7 @@ FROM [igtpos].[dbo].UserProfile
 WHERE [Name] = 'Administrador';
 
 INSERT INTO [igtpos].[dbo].[User]
-SELECT NULL, 'Miguel', '1271', '5259', 'Vt|nXe1[Aavq', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Miguel', '#FFFFFF', 0x0, 1
+SELECT NULL, 'Miguel', '7618', '8881', 'Yy1>0N}R', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Miguel', '#FFFFFF', 0x0, 1
 WHERE NOT EXISTS (
 	SELECT 1
 	FROM [igtpos].[dbo].[User]
@@ -72,7 +72,7 @@ WHERE NOT EXISTS (
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\usuarios\Administrador.jpg'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\usuarios\Administrador.jpg'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
@@ -104,7 +104,7 @@ FROM [igtpos].[dbo].UserProfile
 WHERE [Name] = 'Encargado';
 
 INSERT INTO [igtpos].[dbo].[User]
-SELECT NULL, 'Néstor', '6892', '0131', 'nEstOr-265', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Néstor', '#FFFFFF', 0x0, 1
+SELECT NULL, 'Néstor', '2577', '8774', 'nEstOr-265', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Néstor', '#FFFFFF', 0x0, 1
 WHERE NOT EXISTS (
 	SELECT 1
 	FROM [igtpos].[dbo].[User]
@@ -114,7 +114,7 @@ WHERE NOT EXISTS (
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\usuarios\Encargado.jpg'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\usuarios\Encargado.jpg'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
@@ -146,7 +146,7 @@ FROM [igtpos].[dbo].UserProfile
 WHERE [Name] = 'Camarero';
 
 INSERT INTO [igtpos].[dbo].[User]
-SELECT NULL, 'Lidia', '5001', '1403', '', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Lidia', '#FFFFFF', 0x0, 1
+SELECT NULL, 'Lidia', '4850', '0208', '', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Lidia', '#FFFFFF', 0x0, 1
 WHERE NOT EXISTS (
 	SELECT 1
 	FROM [igtpos].[dbo].[User]
@@ -156,7 +156,7 @@ WHERE NOT EXISTS (
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\usuarios\Camarero.jpg'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\usuarios\Camarero.jpg'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
@@ -188,7 +188,7 @@ FROM [igtpos].[dbo].UserProfile
 WHERE [Name] = 'Camarero';
 
 INSERT INTO [igtpos].[dbo].[User]
-SELECT NULL, 'Pablo', '0480', '5814', '', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Pablo', '#FFFFFF', 0x0, 1
+SELECT NULL, 'Pablo', '4460', '4319', '', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Pablo', '#FFFFFF', 0x0, 1
 WHERE NOT EXISTS (
 	SELECT 1
 	FROM [igtpos].[dbo].[User]
@@ -198,7 +198,7 @@ WHERE NOT EXISTS (
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\usuarios\Camarero.jpg'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\usuarios\Camarero.jpg'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
@@ -230,7 +230,7 @@ FROM [igtpos].[dbo].UserProfile
 WHERE [Name] = 'Cocinero';
 
 INSERT INTO [igtpos].[dbo].[User]
-SELECT NULL, 'Pepe', '3095', '4976', '', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Pepe', '#FFFFFF', 0x0, 1
+SELECT NULL, 'Pepe', '1479', '4666', '', '', '', NULL, '1', '1', 0, '', '', '', '', 0, 0, 0, '', '', '', NULL,'', '', '', 0, '', '', '', '', @idPerfil, 'Pepe', '#FFFFFF', 0x0, 1
 WHERE NOT EXISTS (
 	SELECT 1
 	FROM [igtpos].[dbo].[User]
@@ -240,7 +240,7 @@ WHERE NOT EXISTS (
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\usuarios\Cocinero.jpg'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\usuarios\Cocinero.jpg'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;

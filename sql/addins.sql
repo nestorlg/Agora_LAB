@@ -1278,7 +1278,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\refrescos.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\refrescos.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -3852,7 +3852,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\refrescos.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\refrescos.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 

@@ -3,10 +3,10 @@ SET NOCOUNT ON;
 
 DECLARE @contenidoImagen VARBINARY(MAX);
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK 'C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\projects\Prueba2\logos\logo-smartmenu.png', SINGLE_BLOB) AS ImagenBinaria;
+FROM OPENROWSET(BULK 'C:\Users\nesto\Desktop\Agora_LAB\projects\Prueba2\logos\logo-smartmenu.png', SINGLE_BLOB) AS ImagenBinaria;
 
 INSERT INTO [igtpos].[dbo].DigitalMenu
-SELECT	'zpny', 'La Carta', 'wkg0', '', '', '', '', 'Puede revisar los términos y condiciones en nuestra página web..', '', '', @contenidoImagen, '0xFF6CC9C7', '0xFFFFFFFF', 1, 1, 1, NULL, NULL, NULL, '';
+SELECT	'o0il', 'La Carta', 'xbuv', '', '', '', '', 'Puede revisar los términos y condiciones en nuestra página web..', '', '', @contenidoImagen, '0xFF6CC9C7', '0xFFFFFFFF', 1, 1, 1, NULL, NULL, NULL, '';
 
 DECLARE cursor_categorias CURSOR FOR
 SELECT cat.Id

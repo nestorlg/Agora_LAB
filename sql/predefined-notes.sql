@@ -16,7 +16,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\notas\con-hielo.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\notas\con-hielo.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT',@contenido OUTPUT;
 
@@ -89,7 +89,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\notas\sin-hielo.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\notas\sin-hielo.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT',@contenido OUTPUT;
 
@@ -162,7 +162,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\notas\con-limon.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\notas\con-limon.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT',@contenido OUTPUT;
 
@@ -235,7 +235,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\notas\sin-limon.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\notas\sin-limon.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT',@contenido OUTPUT;
 

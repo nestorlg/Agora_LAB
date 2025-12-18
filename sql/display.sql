@@ -4,7 +4,7 @@ DECLARE @idCentroVenta INT;
 SET NOCOUNT ON;
 
 INSERT INTO [igtpos].[dbo].KitchenDisplay
-SELECT 'Cocina1', NULL, 1, 1, 0, 0, 0, 3, 1, 0, '[]', 'Cocina', 0, 1, 1, 1
+SELECT 'Cocina1', NULL, 1, 1, 0, 0, 0, 3, 1, 0, '[]', 'Cocina', 0, 1, 1, 1, 1
 WHERE NOT EXISTS
 (
 	SELECT 1
@@ -168,7 +168,7 @@ WHERE NOT EXISTS
 	);
 
 INSERT INTO [igtpos].[dbo].KitchenDisplay
-SELECT 'Cocina2', NULL, 1, 1, 0, 0, 0, 3, 1, 0, '[]', 'Cocina', 0, 1, 1, 1
+SELECT 'Cocina2', NULL, 1, 1, 0, 0, 0, 3, 1, 0, '[]', 'Cocina', 0, 1, 1, 1, 1
 WHERE NOT EXISTS
 (
 	SELECT 1

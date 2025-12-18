@@ -522,7 +522,7 @@ WHERE [Name] = 'COPA DON PERIGNON';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\cavas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\cavas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -812,7 +812,7 @@ WHERE [Name] = 'BOTELLA DON PERIGNON';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\cavas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\cavas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -1359,7 +1359,7 @@ WHERE [Name] = 'COPA FREIXENET BRUT';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\cavas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\cavas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -1649,7 +1649,7 @@ WHERE [Name] = 'BOTELLA FREIXENET BRUT';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\cavas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\cavas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -2196,7 +2196,7 @@ WHERE [Name] = 'COPA FREIXENET ROSÈ';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\cavas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\cavas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -2486,7 +2486,7 @@ WHERE [Name] = 'BOTELLA FREIXENET ROSÈ';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\cavas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\cavas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -3574,7 +3574,7 @@ WHERE [Name] = 'PIZZA MARGARITA';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\hamburgueseria\pizza-margarita.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\hamburgueseria\pizza-margarita.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -3864,7 +3864,7 @@ WHERE [Name] = 'AGUA CON GAS';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\aguas\agua-con-gas.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\aguas\agua-con-gas.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -4154,7 +4154,7 @@ WHERE [Name] = 'COCA COLA';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\refrescos\coca-cola-1.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\refrescos\coca-cola-1.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -4444,7 +4444,7 @@ WHERE [Name] = 'COCA COLA ZERO';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\refrescos\cola-zero.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\refrescos\cola-zero.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -4734,7 +4734,7 @@ WHERE [Name] = 'FANTA LIMÓN';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\refrescos\fanta-limon.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\refrescos\fanta-limon.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -5024,7 +5024,7 @@ WHERE [Name] = 'FANTA NARANJA';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\refrescos\fanta-naranja.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\refrescos\fanta-naranja.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -5314,7 +5314,7 @@ WHERE [Name] = 'GINGER ALE';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\refrescos\ginger-ale.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\refrescos\ginger-ale.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -5604,7 +5604,7 @@ WHERE [Name] = 'PEPSI';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\refrescos\pepsi-normal.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\refrescos\pepsi-normal.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -5894,7 +5894,7 @@ WHERE [Name] = 'RED BULL';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\refrescos\redbull.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\refrescos\redbull.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -6184,7 +6184,7 @@ WHERE [Name] = 'ABSOLUT';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\absolut.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\absolut.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -6465,7 +6465,7 @@ WHERE [Name] = 'CHUPITO ABSOLUT';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -6755,7 +6755,7 @@ WHERE [Name] = 'COPA ABSOLUT';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -7045,7 +7045,7 @@ WHERE [Name] = 'BOTELLA ABSOLUT';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -7335,7 +7335,7 @@ WHERE [Name] = 'BELUGA';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\beluga.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\beluga.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -7616,7 +7616,7 @@ WHERE [Name] = 'CHUPITO BELUGA';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -7906,7 +7906,7 @@ WHERE [Name] = 'COPA BELUGA';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -8196,7 +8196,7 @@ WHERE [Name] = 'BOTELLA BELUGA';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -8486,7 +8486,7 @@ WHERE [Name] = 'BELVEDERE';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\belvedere.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\belvedere.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -8767,7 +8767,7 @@ WHERE [Name] = 'CHUPITO BELVEDERE';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -9057,7 +9057,7 @@ WHERE [Name] = 'COPA BELVEDERE';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -9347,7 +9347,7 @@ WHERE [Name] = 'BOTELLA BELVEDERE';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -9637,7 +9637,7 @@ WHERE [Name] = 'CIROC';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\ciroc.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\ciroc.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -9918,7 +9918,7 @@ WHERE [Name] = 'CHUPITO CIROC';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -10208,7 +10208,7 @@ WHERE [Name] = 'COPA CIROC';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -10498,7 +10498,7 @@ WHERE [Name] = 'BOTELLA CIROC';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -10788,7 +10788,7 @@ WHERE [Name] = 'SMIRNOFF';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\smirnoff-red-vodka.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\smirnoff-red-vodka.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -11069,7 +11069,7 @@ WHERE [Name] = 'CHUPITO SMIRNOFF';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\chupito.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -11359,7 +11359,7 @@ WHERE [Name] = 'COPA SMIRNOFF';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\copa.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 
@@ -11649,7 +11649,7 @@ WHERE [Name] = 'BOTELLA SMIRNOFF';
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\vodkas\botella.jpg'', SINGLE_BLOB) AS ImagenBinaria;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
 

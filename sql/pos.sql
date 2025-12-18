@@ -346,107 +346,107 @@ WHERE NOT EXISTS
 );
 
 INSERT INTO [igtpos].[dbo].Pos
-SELECT 1,          --Type
-       NULL,       --DeletionDate
-       'CMD1',    --Name
-       NULL,       --BusinessDay
-       NULL,       --OpenDate
-       NULL,       --LastPartialBalanceDate
-       0.000,      --LastPartialAmount
-       0.000,      --InitialAmount
-       0.000,      --CurrentAmount
-       0.000,      --TipsPendingToExtract
-       NULL,       --OpenerUserId
-       NULL,       --WarehouseId
-       0,          --AllowCashTransactions
-       0,          --AfterCloseTicketAction
-       0,          --AfterPrintTicketAction
-       0,          --AfterPrepareTicketAction
-       0,          --AfterOpenCashdrawerAction
-       0,          --SoldProductTranslationPolicy
-       1,          --SearchMode
-       1,          --MakeBalanceOnCloseDay
-       0,          --PrintTotalBalanceOnCloseDay
-       0,           --UseFingerprintReader
-       0,          --AllowPrintTicketGif
-       0,          --TicketWhenPrint
-       0,          --TicketDefaultWhenPrint
-       'Ticket',   --TicketPrinterName
-       1,          --TicketNumberOfCopies
-       1,          --TicketPrintTemplateId
-       0,          --BasicInvoiceWhenPrint
-       0,          --BasicInvoiceDefaultWhenPrint
-       'Ticket',   --BasicInvoicePrinterName
-       1,          --BasicInvoiceNumberOfCopies
-       1,          --BasicInvoicePrintTemplateId
-       0,          --StandardInvoiceWhenPrint
-       0,          --StandardInvoiceDefaultWhenPrint
-       'Ticket',   --StandardInvoicePrinterName
-       1,          --StandardInvoiceNumberOfCopies
-       1,          --StandardInvoicePrintTemplateId
-       0,          --DeliveryNoteWhenPrint
-       0,          --DeliveryNoteDefaultWhenPrint
-       'Ticket',   --DeliveryNoteSettingsPrinterName
-       1,          --NoteSettingsNumberOfCopies
-       1,          --DeliveryNotePrintTemplateId
-       0,          --UseAutomaticPreparation
-       0,          --ShowTicketPreviewBeforePrint
-       0,          --WarnOnTicketCreatedByOtherUser
-       0,          --WarnOnTicketInUseByOtherUser
-       'Ticket',   --CashdrawerPrinter
-       'Ticket',   --CouponPrinter
-       0,          --ShowLastSaleInLoginView
-       0,          --ShowLastSaleInSelectLocationView
-       0,          --IncludeProductSales
-       0,          --IncludeUserSales
-       0,          --IncludeFamilySales
-       0,          --IncludeTableCompanionsSummary
-       0,          --IncludeDiscrepancyAmount
-       1,          --IncludeInvitationsByUser
-       0,          --IncludeSalesCenterSales
-       0,          --IncludeCancellationsByUser
-       0,          --IncludeProductReturns
-       0,          --IncludeUserPayments
-       0,          --IncludeVerificationCode
-       1,          --IncludePaymentTips
-       0,          --IncludePendingOperations
-       0,          --IncludeDeliveryPersonStatus
-       0,          --UseDeliveryNoteData
-       2,          --ActionDispayProfileId
-       NULL,        --UseCashControl
-       NULL,       --UseCashControlBlindOpening
-       NULL,       --CashControlSettingsField
-       0,          --UseCardProcessor
-       NULL,       --CardProcessorSettingsField
-       NULL,       --ScaleEnabled
-       NULL,       --ScalePortName
-       NULL,       --ScalePortBaudRate
-       NULL,       --ScalePortDataBits
-       NULL,       --ScalePortParity
-       NULL,       --ScalePortStopBits
-       NULL,       --ScalePortHandshake
-       2,          --GroupId
-       NULL,       --DefaultSaleCenterId
-       NULL,       --DefaultSaleCenterName
-       NULL,       --DefaultSaleLocationName
-       0,          --OnSelectLocationAction
-       NULL,       --DisplayType
-       '00000000-0000-0000-0000-000000000000',       --ScreenImageId
-       NULL,       --ScreenShowLineNotes
-       NULL,       --DisplayPortName
-       NULL,       --DisplayPortBaudRate
-       NULL,       --DisplayPortDataBits
-       NULL,       --DisplayPortParity
-       NULL,       --DisplayPortBits
-       NULL,       --DisplayPortHandshake
+SELECT 1,                                      --Type
+       NULL,                                   --DeletionDate
+       'CMD1',                                --Name
+       NULL,                                   --BusinessDay
+       NULL,                                   --OpenDate
+       NULL,                                   --LastPartialBalanceDate
+       0.000,                                  --LastPartialAmount
+       0.000,                                  --InitialAmount
+       0.000,                                  --CurrentAmount
+       0.000,                                  --TipsPendingToExtract
+       NULL,                                   --OpenerUserId
+       NULL,                                   --WarehouseId
+       0,                                      --AllowCashTransactions
+       0,                                      --AfterCloseTicketAction
+       0,                                      --AfterPrintTicketAction
+       0,                                      --AfterPrepareTicketAction
+       0,                                      --AfterOpenCashdrawerAction
+       0,                                      --SoldProductTranslationPolicy
+       1,                                      --SearchMode
+       1,                                      --MakeBalanceOnCloseDay
+       0,                                      --PrintTotalBalanceOnCloseDay
+       0,                                      --UseFingerprintReader
+       0,                                      --AllowPrintTicketGif
+       0,                                      --TicketWhenPrint
+       0,                                      --TicketDefaultWhenPrint
+       'Ticket',                               --TicketPrinterName
+       1,                                      --TicketNumberOfCopies
+       1,                                      --TicketPrintTemplateId
+       0,                                      --BasicInvoiceWhenPrint
+       0,                                      --BasicInvoiceDefaultWhenPrint
+       'Ticket',                               --BasicInvoicePrinterName
+       1,                                      --BasicInvoiceNumberOfCopies
+       1,                                      --BasicInvoicePrintTemplateId
+       0,                                      --StandardInvoiceWhenPrint
+       0,                                      --StandardInvoiceDefaultWhenPrint
+       'Ticket',                               --StandardInvoicePrinterName
+       1,                                      --StandardInvoiceNumberOfCopies
+       1,                                      --StandardInvoicePrintTemplateId
+       0,                                      --DeliveryNoteWhenPrint
+       0,                                      --DeliveryNoteDefaultWhenPrint
+       'Ticket',                               --DeliveryNoteSettingsPrinterName
+       1,                                      --NoteSettingsNumberOfCopies
+       1,                                      --DeliveryNotePrintTemplateId
+       0,                                      --UseAutomaticPreparation
+       0,                                      --ShowTicketPreviewBeforePrint
+       0,                                      --WarnOnTicketCreatedByOtherUser
+       0,                                      --WarnOnTicketInUseByOtherUser
+       'Ticket',                               --CashdrawerPrinter
+       'Ticket',                               --CouponPrinter
+       0,                                      --ShowLastSaleInLoginView
+       0,                                      --ShowLastSaleInSelectLocationView
+       0,                                      --IncludeProductSales
+       0,                                      --IncludeUserSales
+       0,                                      --IncludeFamilySales
+       0,                                      --IncludeTableCompanionsSummary
+       0,                                      --IncludeDiscrepancyAmount
+       1,                                      --IncludeInvitationsByUser
+       0,                                      --IncludeSalesCenterSales
+       0,                                      --IncludeCancellationsByUser
+       0,                                      --IncludeProductReturns
+       0,                                      --IncludeUserPayments
+       0,                                      --IncludeVerificationCode
+       1,                                      --IncludePaymentTips
+       0,                                      --IncludePendingOperations
+       0,                                      --IncludeDeliveryPersonStatus
+       0,                                      --UseDeliveryNoteData
+       2,                                      --ActionDispayProfileId
+       NULL,                                   --UseCashControl
+       NULL,                                   --UseCashControlBlindOpening
+       NULL,                                   --CashControlSettingsField
+       0,                                      --UseCardProcessor
+       NULL,                                   --CardProcessorSettingsField
+       NULL,                                   --ScaleEnabled
+       NULL,                                   --ScalePortName
+       NULL,                                   --ScalePortBaudRate
+       NULL,                                   --ScalePortDataBits
+       NULL,                                   --ScalePortParity
+       NULL,                                   --ScalePortStopBits
+       NULL,                                   --ScalePortHandshake
+       2,                                      --GroupId
+       NULL,                                   --DefaultSaleCenterId
+       NULL,                                   --DefaultSaleCenterName
+       NULL,                                   --DefaultSaleLocationName
+       0,                                      --OnSelectLocationAction
+       NULL,                                   --DisplayType
+       '00000000-0000-0000-0000-000000000000', --ScreenImageId
+       NULL,                                   --ScreenShowLineNotes
+       NULL,                                   --DisplayPortName
+       NULL,                                   --DisplayPortBaudRate
+       NULL,                                   --DisplayPortDataBits
+       NULL,                                   --DisplayPortParity
+       NULL,                                   --DisplayPortBits
+       NULL,                                   --DisplayPortHandshake
 	    0,									    --DisplayScreenSaverEnabled
        0,									    --DisplayScreenSaverTimeToShowInSeconds
        '00000000-0000-0000-0000-000000000000',	--DisplayScreenSaverImageId
        0,									    --DisplayScreenSaverType
        NULL,									--DisplayScreenSaverUrl
-       0,          --EnableAutoCloseSession
-       60,         --SecondsToAutoCloseSession
-       NULL        --MasterId
+       1,                                      --EnableAutoCloseSession
+       60,                                     --SecondsToAutoCloseSession
+       NULL                                    --MasterId
 WHERE NOT EXISTS
 (
 	SELECT 1
@@ -455,107 +455,107 @@ WHERE NOT EXISTS
 );
 
 INSERT INTO [igtpos].[dbo].Pos
-SELECT 1,          --Type
-       NULL,       --DeletionDate
-       'CMD2',    --Name
-       NULL,       --BusinessDay
-       NULL,       --OpenDate
-       NULL,       --LastPartialBalanceDate
-       0.000,      --LastPartialAmount
-       0.000,      --InitialAmount
-       0.000,      --CurrentAmount
-       0.000,      --TipsPendingToExtract
-       NULL,       --OpenerUserId
-       NULL,       --WarehouseId
-       0,          --AllowCashTransactions
-       0,          --AfterCloseTicketAction
-       0,          --AfterPrintTicketAction
-       0,          --AfterPrepareTicketAction
-       0,          --AfterOpenCashdrawerAction
-       0,          --SoldProductTranslationPolicy
-       1,          --SearchMode
-       1,          --MakeBalanceOnCloseDay
-       0,          --PrintTotalBalanceOnCloseDay
-       0,           --UseFingerprintReader
-       0,          --AllowPrintTicketGif
-       0,          --TicketWhenPrint
-       0,          --TicketDefaultWhenPrint
-       'Ticket',   --TicketPrinterName
-       1,          --TicketNumberOfCopies
-       1,          --TicketPrintTemplateId
-       0,          --BasicInvoiceWhenPrint
-       0,          --BasicInvoiceDefaultWhenPrint
-       'Ticket',   --BasicInvoicePrinterName
-       1,          --BasicInvoiceNumberOfCopies
-       1,          --BasicInvoicePrintTemplateId
-       0,          --StandardInvoiceWhenPrint
-       0,          --StandardInvoiceDefaultWhenPrint
-       'Ticket',   --StandardInvoicePrinterName
-       1,          --StandardInvoiceNumberOfCopies
-       1,          --StandardInvoicePrintTemplateId
-       0,          --DeliveryNoteWhenPrint
-       0,          --DeliveryNoteDefaultWhenPrint
-       'Ticket',   --DeliveryNoteSettingsPrinterName
-       1,          --NoteSettingsNumberOfCopies
-       1,          --DeliveryNotePrintTemplateId
-       0,          --UseAutomaticPreparation
-       0,          --ShowTicketPreviewBeforePrint
-       0,          --WarnOnTicketCreatedByOtherUser
-       0,          --WarnOnTicketInUseByOtherUser
-       'Ticket',   --CashdrawerPrinter
-       'Ticket',   --CouponPrinter
-       0,          --ShowLastSaleInLoginView
-       0,          --ShowLastSaleInSelectLocationView
-       0,          --IncludeProductSales
-       0,          --IncludeUserSales
-       0,          --IncludeFamilySales
-       0,          --IncludeTableCompanionsSummary
-       0,          --IncludeDiscrepancyAmount
-       1,          --IncludeInvitationsByUser
-       0,          --IncludeSalesCenterSales
-       0,          --IncludeCancellationsByUser
-       0,          --IncludeProductReturns
-       0,          --IncludeUserPayments
-       0,          --IncludeVerificationCode
-       1,          --IncludePaymentTips
-       0,          --IncludePendingOperations
-       0,          --IncludeDeliveryPersonStatus
-       0,          --UseDeliveryNoteData
-       2,          --ActionDispayProfileId
-       NULL,        --UseCashControl
-       NULL,       --UseCashControlBlindOpening
-       NULL,       --CashControlSettingsField
-       0,          --UseCardProcessor
-       NULL,       --CardProcessorSettingsField
-       NULL,       --ScaleEnabled
-       NULL,       --ScalePortName
-       NULL,       --ScalePortBaudRate
-       NULL,       --ScalePortDataBits
-       NULL,       --ScalePortParity
-       NULL,       --ScalePortStopBits
-       NULL,       --ScalePortHandshake
-       2,          --GroupId
-       NULL,       --DefaultSaleCenterId
-       NULL,       --DefaultSaleCenterName
-       NULL,       --DefaultSaleLocationName
-       0,          --OnSelectLocationAction
-       NULL,       --DisplayType
-       '00000000-0000-0000-0000-000000000000',       --ScreenImageId
-       NULL,       --ScreenShowLineNotes
-       NULL,       --DisplayPortName
-       NULL,       --DisplayPortBaudRate
-       NULL,       --DisplayPortDataBits
-       NULL,       --DisplayPortParity
-       NULL,       --DisplayPortBits
-       NULL,       --DisplayPortHandshake
+SELECT 1,                                      --Type
+       NULL,                                   --DeletionDate
+       'CMD2',                                --Name
+       NULL,                                   --BusinessDay
+       NULL,                                   --OpenDate
+       NULL,                                   --LastPartialBalanceDate
+       0.000,                                  --LastPartialAmount
+       0.000,                                  --InitialAmount
+       0.000,                                  --CurrentAmount
+       0.000,                                  --TipsPendingToExtract
+       NULL,                                   --OpenerUserId
+       NULL,                                   --WarehouseId
+       0,                                      --AllowCashTransactions
+       0,                                      --AfterCloseTicketAction
+       0,                                      --AfterPrintTicketAction
+       0,                                      --AfterPrepareTicketAction
+       0,                                      --AfterOpenCashdrawerAction
+       0,                                      --SoldProductTranslationPolicy
+       1,                                      --SearchMode
+       1,                                      --MakeBalanceOnCloseDay
+       0,                                      --PrintTotalBalanceOnCloseDay
+       0,                                      --UseFingerprintReader
+       0,                                      --AllowPrintTicketGif
+       0,                                      --TicketWhenPrint
+       0,                                      --TicketDefaultWhenPrint
+       'Ticket',                               --TicketPrinterName
+       1,                                      --TicketNumberOfCopies
+       1,                                      --TicketPrintTemplateId
+       0,                                      --BasicInvoiceWhenPrint
+       0,                                      --BasicInvoiceDefaultWhenPrint
+       'Ticket',                               --BasicInvoicePrinterName
+       1,                                      --BasicInvoiceNumberOfCopies
+       1,                                      --BasicInvoicePrintTemplateId
+       0,                                      --StandardInvoiceWhenPrint
+       0,                                      --StandardInvoiceDefaultWhenPrint
+       'Ticket',                               --StandardInvoicePrinterName
+       1,                                      --StandardInvoiceNumberOfCopies
+       1,                                      --StandardInvoicePrintTemplateId
+       0,                                      --DeliveryNoteWhenPrint
+       0,                                      --DeliveryNoteDefaultWhenPrint
+       'Ticket',                               --DeliveryNoteSettingsPrinterName
+       1,                                      --NoteSettingsNumberOfCopies
+       1,                                      --DeliveryNotePrintTemplateId
+       0,                                      --UseAutomaticPreparation
+       0,                                      --ShowTicketPreviewBeforePrint
+       0,                                      --WarnOnTicketCreatedByOtherUser
+       0,                                      --WarnOnTicketInUseByOtherUser
+       'Ticket',                               --CashdrawerPrinter
+       'Ticket',                               --CouponPrinter
+       0,                                      --ShowLastSaleInLoginView
+       0,                                      --ShowLastSaleInSelectLocationView
+       0,                                      --IncludeProductSales
+       0,                                      --IncludeUserSales
+       0,                                      --IncludeFamilySales
+       0,                                      --IncludeTableCompanionsSummary
+       0,                                      --IncludeDiscrepancyAmount
+       1,                                      --IncludeInvitationsByUser
+       0,                                      --IncludeSalesCenterSales
+       0,                                      --IncludeCancellationsByUser
+       0,                                      --IncludeProductReturns
+       0,                                      --IncludeUserPayments
+       0,                                      --IncludeVerificationCode
+       1,                                      --IncludePaymentTips
+       0,                                      --IncludePendingOperations
+       0,                                      --IncludeDeliveryPersonStatus
+       0,                                      --UseDeliveryNoteData
+       2,                                      --ActionDispayProfileId
+       NULL,                                   --UseCashControl
+       NULL,                                   --UseCashControlBlindOpening
+       NULL,                                   --CashControlSettingsField
+       0,                                      --UseCardProcessor
+       NULL,                                   --CardProcessorSettingsField
+       NULL,                                   --ScaleEnabled
+       NULL,                                   --ScalePortName
+       NULL,                                   --ScalePortBaudRate
+       NULL,                                   --ScalePortDataBits
+       NULL,                                   --ScalePortParity
+       NULL,                                   --ScalePortStopBits
+       NULL,                                   --ScalePortHandshake
+       2,                                      --GroupId
+       NULL,                                   --DefaultSaleCenterId
+       NULL,                                   --DefaultSaleCenterName
+       NULL,                                   --DefaultSaleLocationName
+       0,                                      --OnSelectLocationAction
+       NULL,                                   --DisplayType
+       '00000000-0000-0000-0000-000000000000', --ScreenImageId
+       NULL,                                   --ScreenShowLineNotes
+       NULL,                                   --DisplayPortName
+       NULL,                                   --DisplayPortBaudRate
+       NULL,                                   --DisplayPortDataBits
+       NULL,                                   --DisplayPortParity
+       NULL,                                   --DisplayPortBits
+       NULL,                                   --DisplayPortHandshake
 	    0,									    --DisplayScreenSaverEnabled
        0,									    --DisplayScreenSaverTimeToShowInSeconds
        '00000000-0000-0000-0000-000000000000',	--DisplayScreenSaverImageId
        0,									    --DisplayScreenSaverType
        NULL,									--DisplayScreenSaverUrl
-       0,          --EnableAutoCloseSession
-       60,         --SecondsToAutoCloseSession
-       NULL        --MasterId
+       1,                                      --EnableAutoCloseSession
+       60,                                     --SecondsToAutoCloseSession
+       NULL                                    --MasterId
 WHERE NOT EXISTS
 (
 	SELECT 1
@@ -564,107 +564,107 @@ WHERE NOT EXISTS
 );
 
 INSERT INTO [igtpos].[dbo].Pos
-SELECT 1,          --Type
-       NULL,       --DeletionDate
-       'CMD3',    --Name
-       NULL,       --BusinessDay
-       NULL,       --OpenDate
-       NULL,       --LastPartialBalanceDate
-       0.000,      --LastPartialAmount
-       0.000,      --InitialAmount
-       0.000,      --CurrentAmount
-       0.000,      --TipsPendingToExtract
-       NULL,       --OpenerUserId
-       NULL,       --WarehouseId
-       0,          --AllowCashTransactions
-       0,          --AfterCloseTicketAction
-       0,          --AfterPrintTicketAction
-       0,          --AfterPrepareTicketAction
-       0,          --AfterOpenCashdrawerAction
-       0,          --SoldProductTranslationPolicy
-       1,          --SearchMode
-       1,          --MakeBalanceOnCloseDay
-       0,          --PrintTotalBalanceOnCloseDay
-       0,           --UseFingerprintReader
-       0,          --AllowPrintTicketGif
-       0,          --TicketWhenPrint
-       0,          --TicketDefaultWhenPrint
-       'Ticket',   --TicketPrinterName
-       1,          --TicketNumberOfCopies
-       1,          --TicketPrintTemplateId
-       0,          --BasicInvoiceWhenPrint
-       0,          --BasicInvoiceDefaultWhenPrint
-       'Ticket',   --BasicInvoicePrinterName
-       1,          --BasicInvoiceNumberOfCopies
-       1,          --BasicInvoicePrintTemplateId
-       0,          --StandardInvoiceWhenPrint
-       0,          --StandardInvoiceDefaultWhenPrint
-       'Ticket',   --StandardInvoicePrinterName
-       1,          --StandardInvoiceNumberOfCopies
-       1,          --StandardInvoicePrintTemplateId
-       0,          --DeliveryNoteWhenPrint
-       0,          --DeliveryNoteDefaultWhenPrint
-       'Ticket',   --DeliveryNoteSettingsPrinterName
-       1,          --NoteSettingsNumberOfCopies
-       1,          --DeliveryNotePrintTemplateId
-       0,          --UseAutomaticPreparation
-       0,          --ShowTicketPreviewBeforePrint
-       0,          --WarnOnTicketCreatedByOtherUser
-       0,          --WarnOnTicketInUseByOtherUser
-       'Ticket',   --CashdrawerPrinter
-       'Ticket',   --CouponPrinter
-       0,          --ShowLastSaleInLoginView
-       0,          --ShowLastSaleInSelectLocationView
-       0,          --IncludeProductSales
-       0,          --IncludeUserSales
-       0,          --IncludeFamilySales
-       0,          --IncludeTableCompanionsSummary
-       0,          --IncludeDiscrepancyAmount
-       1,          --IncludeInvitationsByUser
-       0,          --IncludeSalesCenterSales
-       0,          --IncludeCancellationsByUser
-       0,          --IncludeProductReturns
-       0,          --IncludeUserPayments
-       0,          --IncludeVerificationCode
-       1,          --IncludePaymentTips
-       0,          --IncludePendingOperations
-       0,          --IncludeDeliveryPersonStatus
-       0,          --UseDeliveryNoteData
-       2,          --ActionDispayProfileId
-       NULL,        --UseCashControl
-       NULL,       --UseCashControlBlindOpening
-       NULL,       --CashControlSettingsField
-       0,          --UseCardProcessor
-       NULL,       --CardProcessorSettingsField
-       NULL,       --ScaleEnabled
-       NULL,       --ScalePortName
-       NULL,       --ScalePortBaudRate
-       NULL,       --ScalePortDataBits
-       NULL,       --ScalePortParity
-       NULL,       --ScalePortStopBits
-       NULL,       --ScalePortHandshake
-       2,          --GroupId
-       NULL,       --DefaultSaleCenterId
-       NULL,       --DefaultSaleCenterName
-       NULL,       --DefaultSaleLocationName
-       0,          --OnSelectLocationAction
-       NULL,       --DisplayType
-       '00000000-0000-0000-0000-000000000000',       --ScreenImageId
-       NULL,       --ScreenShowLineNotes
-       NULL,       --DisplayPortName
-       NULL,       --DisplayPortBaudRate
-       NULL,       --DisplayPortDataBits
-       NULL,       --DisplayPortParity
-       NULL,       --DisplayPortBits
-       NULL,       --DisplayPortHandshake
+SELECT 1,                                      --Type
+       NULL,                                   --DeletionDate
+       'CMD3',                                --Name
+       NULL,                                   --BusinessDay
+       NULL,                                   --OpenDate
+       NULL,                                   --LastPartialBalanceDate
+       0.000,                                  --LastPartialAmount
+       0.000,                                  --InitialAmount
+       0.000,                                  --CurrentAmount
+       0.000,                                  --TipsPendingToExtract
+       NULL,                                   --OpenerUserId
+       NULL,                                   --WarehouseId
+       0,                                      --AllowCashTransactions
+       0,                                      --AfterCloseTicketAction
+       0,                                      --AfterPrintTicketAction
+       0,                                      --AfterPrepareTicketAction
+       0,                                      --AfterOpenCashdrawerAction
+       0,                                      --SoldProductTranslationPolicy
+       1,                                      --SearchMode
+       1,                                      --MakeBalanceOnCloseDay
+       0,                                      --PrintTotalBalanceOnCloseDay
+       0,                                      --UseFingerprintReader
+       0,                                      --AllowPrintTicketGif
+       0,                                      --TicketWhenPrint
+       0,                                      --TicketDefaultWhenPrint
+       'Ticket',                               --TicketPrinterName
+       1,                                      --TicketNumberOfCopies
+       1,                                      --TicketPrintTemplateId
+       0,                                      --BasicInvoiceWhenPrint
+       0,                                      --BasicInvoiceDefaultWhenPrint
+       'Ticket',                               --BasicInvoicePrinterName
+       1,                                      --BasicInvoiceNumberOfCopies
+       1,                                      --BasicInvoicePrintTemplateId
+       0,                                      --StandardInvoiceWhenPrint
+       0,                                      --StandardInvoiceDefaultWhenPrint
+       'Ticket',                               --StandardInvoicePrinterName
+       1,                                      --StandardInvoiceNumberOfCopies
+       1,                                      --StandardInvoicePrintTemplateId
+       0,                                      --DeliveryNoteWhenPrint
+       0,                                      --DeliveryNoteDefaultWhenPrint
+       'Ticket',                               --DeliveryNoteSettingsPrinterName
+       1,                                      --NoteSettingsNumberOfCopies
+       1,                                      --DeliveryNotePrintTemplateId
+       0,                                      --UseAutomaticPreparation
+       0,                                      --ShowTicketPreviewBeforePrint
+       0,                                      --WarnOnTicketCreatedByOtherUser
+       0,                                      --WarnOnTicketInUseByOtherUser
+       'Ticket',                               --CashdrawerPrinter
+       'Ticket',                               --CouponPrinter
+       0,                                      --ShowLastSaleInLoginView
+       0,                                      --ShowLastSaleInSelectLocationView
+       0,                                      --IncludeProductSales
+       0,                                      --IncludeUserSales
+       0,                                      --IncludeFamilySales
+       0,                                      --IncludeTableCompanionsSummary
+       0,                                      --IncludeDiscrepancyAmount
+       1,                                      --IncludeInvitationsByUser
+       0,                                      --IncludeSalesCenterSales
+       0,                                      --IncludeCancellationsByUser
+       0,                                      --IncludeProductReturns
+       0,                                      --IncludeUserPayments
+       0,                                      --IncludeVerificationCode
+       1,                                      --IncludePaymentTips
+       0,                                      --IncludePendingOperations
+       0,                                      --IncludeDeliveryPersonStatus
+       0,                                      --UseDeliveryNoteData
+       2,                                      --ActionDispayProfileId
+       NULL,                                   --UseCashControl
+       NULL,                                   --UseCashControlBlindOpening
+       NULL,                                   --CashControlSettingsField
+       0,                                      --UseCardProcessor
+       NULL,                                   --CardProcessorSettingsField
+       NULL,                                   --ScaleEnabled
+       NULL,                                   --ScalePortName
+       NULL,                                   --ScalePortBaudRate
+       NULL,                                   --ScalePortDataBits
+       NULL,                                   --ScalePortParity
+       NULL,                                   --ScalePortStopBits
+       NULL,                                   --ScalePortHandshake
+       2,                                      --GroupId
+       NULL,                                   --DefaultSaleCenterId
+       NULL,                                   --DefaultSaleCenterName
+       NULL,                                   --DefaultSaleLocationName
+       0,                                      --OnSelectLocationAction
+       NULL,                                   --DisplayType
+       '00000000-0000-0000-0000-000000000000', --ScreenImageId
+       NULL,                                   --ScreenShowLineNotes
+       NULL,                                   --DisplayPortName
+       NULL,                                   --DisplayPortBaudRate
+       NULL,                                   --DisplayPortDataBits
+       NULL,                                   --DisplayPortParity
+       NULL,                                   --DisplayPortBits
+       NULL,                                   --DisplayPortHandshake
 	    0,									    --DisplayScreenSaverEnabled
        0,									    --DisplayScreenSaverTimeToShowInSeconds
        '00000000-0000-0000-0000-000000000000',	--DisplayScreenSaverImageId
        0,									    --DisplayScreenSaverType
        NULL,									--DisplayScreenSaverUrl
-       0,          --EnableAutoCloseSession
-       60,         --SecondsToAutoCloseSession
-       NULL        --MasterId
+       1,                                      --EnableAutoCloseSession
+       60,                                     --SecondsToAutoCloseSession
+       NULL                                    --MasterId
 WHERE NOT EXISTS
 (
 	SELECT 1
@@ -673,107 +673,107 @@ WHERE NOT EXISTS
 );
 
 INSERT INTO [igtpos].[dbo].Pos
-SELECT 1,          --Type
-       NULL,       --DeletionDate
-       'CMD4',    --Name
-       NULL,       --BusinessDay
-       NULL,       --OpenDate
-       NULL,       --LastPartialBalanceDate
-       0.000,      --LastPartialAmount
-       0.000,      --InitialAmount
-       0.000,      --CurrentAmount
-       0.000,      --TipsPendingToExtract
-       NULL,       --OpenerUserId
-       NULL,       --WarehouseId
-       0,          --AllowCashTransactions
-       0,          --AfterCloseTicketAction
-       0,          --AfterPrintTicketAction
-       0,          --AfterPrepareTicketAction
-       0,          --AfterOpenCashdrawerAction
-       0,          --SoldProductTranslationPolicy
-       1,          --SearchMode
-       1,          --MakeBalanceOnCloseDay
-       0,          --PrintTotalBalanceOnCloseDay
-       0,           --UseFingerprintReader
-       0,          --AllowPrintTicketGif
-       0,          --TicketWhenPrint
-       0,          --TicketDefaultWhenPrint
-       'Ticket',   --TicketPrinterName
-       1,          --TicketNumberOfCopies
-       1,          --TicketPrintTemplateId
-       0,          --BasicInvoiceWhenPrint
-       0,          --BasicInvoiceDefaultWhenPrint
-       'Ticket',   --BasicInvoicePrinterName
-       1,          --BasicInvoiceNumberOfCopies
-       1,          --BasicInvoicePrintTemplateId
-       0,          --StandardInvoiceWhenPrint
-       0,          --StandardInvoiceDefaultWhenPrint
-       'Ticket',   --StandardInvoicePrinterName
-       1,          --StandardInvoiceNumberOfCopies
-       1,          --StandardInvoicePrintTemplateId
-       0,          --DeliveryNoteWhenPrint
-       0,          --DeliveryNoteDefaultWhenPrint
-       'Ticket',   --DeliveryNoteSettingsPrinterName
-       1,          --NoteSettingsNumberOfCopies
-       1,          --DeliveryNotePrintTemplateId
-       0,          --UseAutomaticPreparation
-       0,          --ShowTicketPreviewBeforePrint
-       0,          --WarnOnTicketCreatedByOtherUser
-       0,          --WarnOnTicketInUseByOtherUser
-       'Ticket',   --CashdrawerPrinter
-       'Ticket',   --CouponPrinter
-       0,          --ShowLastSaleInLoginView
-       0,          --ShowLastSaleInSelectLocationView
-       0,          --IncludeProductSales
-       0,          --IncludeUserSales
-       0,          --IncludeFamilySales
-       0,          --IncludeTableCompanionsSummary
-       0,          --IncludeDiscrepancyAmount
-       1,          --IncludeInvitationsByUser
-       0,          --IncludeSalesCenterSales
-       0,          --IncludeCancellationsByUser
-       0,          --IncludeProductReturns
-       0,          --IncludeUserPayments
-       0,          --IncludeVerificationCode
-       1,          --IncludePaymentTips
-       0,          --IncludePendingOperations
-       0,          --IncludeDeliveryPersonStatus
-       0,          --UseDeliveryNoteData
-       2,          --ActionDispayProfileId
-       NULL,        --UseCashControl
-       NULL,       --UseCashControlBlindOpening
-       NULL,       --CashControlSettingsField
-       0,          --UseCardProcessor
-       NULL,       --CardProcessorSettingsField
-       NULL,       --ScaleEnabled
-       NULL,       --ScalePortName
-       NULL,       --ScalePortBaudRate
-       NULL,       --ScalePortDataBits
-       NULL,       --ScalePortParity
-       NULL,       --ScalePortStopBits
-       NULL,       --ScalePortHandshake
-       2,          --GroupId
-       NULL,       --DefaultSaleCenterId
-       NULL,       --DefaultSaleCenterName
-       NULL,       --DefaultSaleLocationName
-       0,          --OnSelectLocationAction
-       NULL,       --DisplayType
-       '00000000-0000-0000-0000-000000000000',       --ScreenImageId
-       NULL,       --ScreenShowLineNotes
-       NULL,       --DisplayPortName
-       NULL,       --DisplayPortBaudRate
-       NULL,       --DisplayPortDataBits
-       NULL,       --DisplayPortParity
-       NULL,       --DisplayPortBits
-       NULL,       --DisplayPortHandshake
+SELECT 1,                                      --Type
+       NULL,                                   --DeletionDate
+       'CMD4',                                --Name
+       NULL,                                   --BusinessDay
+       NULL,                                   --OpenDate
+       NULL,                                   --LastPartialBalanceDate
+       0.000,                                  --LastPartialAmount
+       0.000,                                  --InitialAmount
+       0.000,                                  --CurrentAmount
+       0.000,                                  --TipsPendingToExtract
+       NULL,                                   --OpenerUserId
+       NULL,                                   --WarehouseId
+       0,                                      --AllowCashTransactions
+       0,                                      --AfterCloseTicketAction
+       0,                                      --AfterPrintTicketAction
+       0,                                      --AfterPrepareTicketAction
+       0,                                      --AfterOpenCashdrawerAction
+       0,                                      --SoldProductTranslationPolicy
+       1,                                      --SearchMode
+       1,                                      --MakeBalanceOnCloseDay
+       0,                                      --PrintTotalBalanceOnCloseDay
+       0,                                      --UseFingerprintReader
+       0,                                      --AllowPrintTicketGif
+       0,                                      --TicketWhenPrint
+       0,                                      --TicketDefaultWhenPrint
+       'Ticket',                               --TicketPrinterName
+       1,                                      --TicketNumberOfCopies
+       1,                                      --TicketPrintTemplateId
+       0,                                      --BasicInvoiceWhenPrint
+       0,                                      --BasicInvoiceDefaultWhenPrint
+       'Ticket',                               --BasicInvoicePrinterName
+       1,                                      --BasicInvoiceNumberOfCopies
+       1,                                      --BasicInvoicePrintTemplateId
+       0,                                      --StandardInvoiceWhenPrint
+       0,                                      --StandardInvoiceDefaultWhenPrint
+       'Ticket',                               --StandardInvoicePrinterName
+       1,                                      --StandardInvoiceNumberOfCopies
+       1,                                      --StandardInvoicePrintTemplateId
+       0,                                      --DeliveryNoteWhenPrint
+       0,                                      --DeliveryNoteDefaultWhenPrint
+       'Ticket',                               --DeliveryNoteSettingsPrinterName
+       1,                                      --NoteSettingsNumberOfCopies
+       1,                                      --DeliveryNotePrintTemplateId
+       0,                                      --UseAutomaticPreparation
+       0,                                      --ShowTicketPreviewBeforePrint
+       0,                                      --WarnOnTicketCreatedByOtherUser
+       0,                                      --WarnOnTicketInUseByOtherUser
+       'Ticket',                               --CashdrawerPrinter
+       'Ticket',                               --CouponPrinter
+       0,                                      --ShowLastSaleInLoginView
+       0,                                      --ShowLastSaleInSelectLocationView
+       0,                                      --IncludeProductSales
+       0,                                      --IncludeUserSales
+       0,                                      --IncludeFamilySales
+       0,                                      --IncludeTableCompanionsSummary
+       0,                                      --IncludeDiscrepancyAmount
+       1,                                      --IncludeInvitationsByUser
+       0,                                      --IncludeSalesCenterSales
+       0,                                      --IncludeCancellationsByUser
+       0,                                      --IncludeProductReturns
+       0,                                      --IncludeUserPayments
+       0,                                      --IncludeVerificationCode
+       1,                                      --IncludePaymentTips
+       0,                                      --IncludePendingOperations
+       0,                                      --IncludeDeliveryPersonStatus
+       0,                                      --UseDeliveryNoteData
+       2,                                      --ActionDispayProfileId
+       NULL,                                   --UseCashControl
+       NULL,                                   --UseCashControlBlindOpening
+       NULL,                                   --CashControlSettingsField
+       0,                                      --UseCardProcessor
+       NULL,                                   --CardProcessorSettingsField
+       NULL,                                   --ScaleEnabled
+       NULL,                                   --ScalePortName
+       NULL,                                   --ScalePortBaudRate
+       NULL,                                   --ScalePortDataBits
+       NULL,                                   --ScalePortParity
+       NULL,                                   --ScalePortStopBits
+       NULL,                                   --ScalePortHandshake
+       2,                                      --GroupId
+       NULL,                                   --DefaultSaleCenterId
+       NULL,                                   --DefaultSaleCenterName
+       NULL,                                   --DefaultSaleLocationName
+       0,                                      --OnSelectLocationAction
+       NULL,                                   --DisplayType
+       '00000000-0000-0000-0000-000000000000', --ScreenImageId
+       NULL,                                   --ScreenShowLineNotes
+       NULL,                                   --DisplayPortName
+       NULL,                                   --DisplayPortBaudRate
+       NULL,                                   --DisplayPortDataBits
+       NULL,                                   --DisplayPortParity
+       NULL,                                   --DisplayPortBits
+       NULL,                                   --DisplayPortHandshake
 	    0,									    --DisplayScreenSaverEnabled
        0,									    --DisplayScreenSaverTimeToShowInSeconds
        '00000000-0000-0000-0000-000000000000',	--DisplayScreenSaverImageId
        0,									    --DisplayScreenSaverType
        NULL,									--DisplayScreenSaverUrl
-       0,          --EnableAutoCloseSession
-       60,         --SecondsToAutoCloseSession
-       NULL        --MasterId
+       1,                                      --EnableAutoCloseSession
+       60,                                     --SecondsToAutoCloseSession
+       NULL                                    --MasterId
 WHERE NOT EXISTS
 (
 	SELECT 1
@@ -782,107 +782,107 @@ WHERE NOT EXISTS
 );
 
 INSERT INTO [igtpos].[dbo].Pos
-SELECT 1,          --Type
-       NULL,       --DeletionDate
-       'CMD5',    --Name
-       NULL,       --BusinessDay
-       NULL,       --OpenDate
-       NULL,       --LastPartialBalanceDate
-       0.000,      --LastPartialAmount
-       0.000,      --InitialAmount
-       0.000,      --CurrentAmount
-       0.000,      --TipsPendingToExtract
-       NULL,       --OpenerUserId
-       NULL,       --WarehouseId
-       0,          --AllowCashTransactions
-       0,          --AfterCloseTicketAction
-       0,          --AfterPrintTicketAction
-       0,          --AfterPrepareTicketAction
-       0,          --AfterOpenCashdrawerAction
-       0,          --SoldProductTranslationPolicy
-       1,          --SearchMode
-       1,          --MakeBalanceOnCloseDay
-       0,          --PrintTotalBalanceOnCloseDay
-       0,           --UseFingerprintReader
-       0,          --AllowPrintTicketGif
-       0,          --TicketWhenPrint
-       0,          --TicketDefaultWhenPrint
-       'Ticket',   --TicketPrinterName
-       1,          --TicketNumberOfCopies
-       1,          --TicketPrintTemplateId
-       0,          --BasicInvoiceWhenPrint
-       0,          --BasicInvoiceDefaultWhenPrint
-       'Ticket',   --BasicInvoicePrinterName
-       1,          --BasicInvoiceNumberOfCopies
-       1,          --BasicInvoicePrintTemplateId
-       0,          --StandardInvoiceWhenPrint
-       0,          --StandardInvoiceDefaultWhenPrint
-       'Ticket',   --StandardInvoicePrinterName
-       1,          --StandardInvoiceNumberOfCopies
-       1,          --StandardInvoicePrintTemplateId
-       0,          --DeliveryNoteWhenPrint
-       0,          --DeliveryNoteDefaultWhenPrint
-       'Ticket',   --DeliveryNoteSettingsPrinterName
-       1,          --NoteSettingsNumberOfCopies
-       1,          --DeliveryNotePrintTemplateId
-       0,          --UseAutomaticPreparation
-       0,          --ShowTicketPreviewBeforePrint
-       0,          --WarnOnTicketCreatedByOtherUser
-       0,          --WarnOnTicketInUseByOtherUser
-       'Ticket',   --CashdrawerPrinter
-       'Ticket',   --CouponPrinter
-       0,          --ShowLastSaleInLoginView
-       0,          --ShowLastSaleInSelectLocationView
-       0,          --IncludeProductSales
-       0,          --IncludeUserSales
-       0,          --IncludeFamilySales
-       0,          --IncludeTableCompanionsSummary
-       0,          --IncludeDiscrepancyAmount
-       1,          --IncludeInvitationsByUser
-       0,          --IncludeSalesCenterSales
-       0,          --IncludeCancellationsByUser
-       0,          --IncludeProductReturns
-       0,          --IncludeUserPayments
-       0,          --IncludeVerificationCode
-       1,          --IncludePaymentTips
-       0,          --IncludePendingOperations
-       0,          --IncludeDeliveryPersonStatus
-       0,          --UseDeliveryNoteData
-       2,          --ActionDispayProfileId
-       NULL,        --UseCashControl
-       NULL,       --UseCashControlBlindOpening
-       NULL,       --CashControlSettingsField
-       0,          --UseCardProcessor
-       NULL,       --CardProcessorSettingsField
-       NULL,       --ScaleEnabled
-       NULL,       --ScalePortName
-       NULL,       --ScalePortBaudRate
-       NULL,       --ScalePortDataBits
-       NULL,       --ScalePortParity
-       NULL,       --ScalePortStopBits
-       NULL,       --ScalePortHandshake
-       2,          --GroupId
-       NULL,       --DefaultSaleCenterId
-       NULL,       --DefaultSaleCenterName
-       NULL,       --DefaultSaleLocationName
-       0,          --OnSelectLocationAction
-       NULL,       --DisplayType
-       '00000000-0000-0000-0000-000000000000',       --ScreenImageId
-       NULL,       --ScreenShowLineNotes
-       NULL,       --DisplayPortName
-       NULL,       --DisplayPortBaudRate
-       NULL,       --DisplayPortDataBits
-       NULL,       --DisplayPortParity
-       NULL,       --DisplayPortBits
-       NULL,       --DisplayPortHandshake
+SELECT 1,                                      --Type
+       NULL,                                   --DeletionDate
+       'CMD5',                                --Name
+       NULL,                                   --BusinessDay
+       NULL,                                   --OpenDate
+       NULL,                                   --LastPartialBalanceDate
+       0.000,                                  --LastPartialAmount
+       0.000,                                  --InitialAmount
+       0.000,                                  --CurrentAmount
+       0.000,                                  --TipsPendingToExtract
+       NULL,                                   --OpenerUserId
+       NULL,                                   --WarehouseId
+       0,                                      --AllowCashTransactions
+       0,                                      --AfterCloseTicketAction
+       0,                                      --AfterPrintTicketAction
+       0,                                      --AfterPrepareTicketAction
+       0,                                      --AfterOpenCashdrawerAction
+       0,                                      --SoldProductTranslationPolicy
+       1,                                      --SearchMode
+       1,                                      --MakeBalanceOnCloseDay
+       0,                                      --PrintTotalBalanceOnCloseDay
+       0,                                      --UseFingerprintReader
+       0,                                      --AllowPrintTicketGif
+       0,                                      --TicketWhenPrint
+       0,                                      --TicketDefaultWhenPrint
+       'Ticket',                               --TicketPrinterName
+       1,                                      --TicketNumberOfCopies
+       1,                                      --TicketPrintTemplateId
+       0,                                      --BasicInvoiceWhenPrint
+       0,                                      --BasicInvoiceDefaultWhenPrint
+       'Ticket',                               --BasicInvoicePrinterName
+       1,                                      --BasicInvoiceNumberOfCopies
+       1,                                      --BasicInvoicePrintTemplateId
+       0,                                      --StandardInvoiceWhenPrint
+       0,                                      --StandardInvoiceDefaultWhenPrint
+       'Ticket',                               --StandardInvoicePrinterName
+       1,                                      --StandardInvoiceNumberOfCopies
+       1,                                      --StandardInvoicePrintTemplateId
+       0,                                      --DeliveryNoteWhenPrint
+       0,                                      --DeliveryNoteDefaultWhenPrint
+       'Ticket',                               --DeliveryNoteSettingsPrinterName
+       1,                                      --NoteSettingsNumberOfCopies
+       1,                                      --DeliveryNotePrintTemplateId
+       0,                                      --UseAutomaticPreparation
+       0,                                      --ShowTicketPreviewBeforePrint
+       0,                                      --WarnOnTicketCreatedByOtherUser
+       0,                                      --WarnOnTicketInUseByOtherUser
+       'Ticket',                               --CashdrawerPrinter
+       'Ticket',                               --CouponPrinter
+       0,                                      --ShowLastSaleInLoginView
+       0,                                      --ShowLastSaleInSelectLocationView
+       0,                                      --IncludeProductSales
+       0,                                      --IncludeUserSales
+       0,                                      --IncludeFamilySales
+       0,                                      --IncludeTableCompanionsSummary
+       0,                                      --IncludeDiscrepancyAmount
+       1,                                      --IncludeInvitationsByUser
+       0,                                      --IncludeSalesCenterSales
+       0,                                      --IncludeCancellationsByUser
+       0,                                      --IncludeProductReturns
+       0,                                      --IncludeUserPayments
+       0,                                      --IncludeVerificationCode
+       1,                                      --IncludePaymentTips
+       0,                                      --IncludePendingOperations
+       0,                                      --IncludeDeliveryPersonStatus
+       0,                                      --UseDeliveryNoteData
+       2,                                      --ActionDispayProfileId
+       NULL,                                   --UseCashControl
+       NULL,                                   --UseCashControlBlindOpening
+       NULL,                                   --CashControlSettingsField
+       0,                                      --UseCardProcessor
+       NULL,                                   --CardProcessorSettingsField
+       NULL,                                   --ScaleEnabled
+       NULL,                                   --ScalePortName
+       NULL,                                   --ScalePortBaudRate
+       NULL,                                   --ScalePortDataBits
+       NULL,                                   --ScalePortParity
+       NULL,                                   --ScalePortStopBits
+       NULL,                                   --ScalePortHandshake
+       2,                                      --GroupId
+       NULL,                                   --DefaultSaleCenterId
+       NULL,                                   --DefaultSaleCenterName
+       NULL,                                   --DefaultSaleLocationName
+       0,                                      --OnSelectLocationAction
+       NULL,                                   --DisplayType
+       '00000000-0000-0000-0000-000000000000', --ScreenImageId
+       NULL,                                   --ScreenShowLineNotes
+       NULL,                                   --DisplayPortName
+       NULL,                                   --DisplayPortBaudRate
+       NULL,                                   --DisplayPortDataBits
+       NULL,                                   --DisplayPortParity
+       NULL,                                   --DisplayPortBits
+       NULL,                                   --DisplayPortHandshake
 	    0,									    --DisplayScreenSaverEnabled
        0,									    --DisplayScreenSaverTimeToShowInSeconds
        '00000000-0000-0000-0000-000000000000',	--DisplayScreenSaverImageId
        0,									    --DisplayScreenSaverType
        NULL,									--DisplayScreenSaverUrl
-       0,          --EnableAutoCloseSession
-       60,         --SecondsToAutoCloseSession
-       NULL        --MasterId
+       1,                                      --EnableAutoCloseSession
+       60,                                     --SecondsToAutoCloseSession
+       NULL                                    --MasterId
 WHERE NOT EXISTS
 (
 	SELECT 1
@@ -2129,7 +2129,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Barra', 'Barra', 1, 1, 1, 1, 1, 1, 0, 0, 0, 1
+	SELECT 'Barra', 'Barra', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 1
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2143,7 +2143,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Cocina', 'Cocina', 1, 1, 1, 1, 1, 1, 0, 0, 0, 1
+	SELECT 'Cocina', 'Cocina', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 1
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2187,7 +2187,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Barra', 'Barra', 1, 1, 1, 1, 1, 1, 0, 0, 0, 2
+	SELECT 'Barra', 'Barra', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 2
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2201,7 +2201,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Cocina', 'Cocina', 1, 1, 1, 1, 1, 1, 0, 0, 0, 2
+	SELECT 'Cocina', 'Cocina', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 2
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2245,7 +2245,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Barra', 'Barra', 1, 1, 1, 1, 1, 1, 0, 0, 0, 3
+	SELECT 'Barra', 'Barra', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 3
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2259,7 +2259,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Cocina', 'Cocina', 1, 1, 1, 1, 1, 1, 0, 0, 0, 3
+	SELECT 'Cocina', 'Cocina', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 3
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2303,7 +2303,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Barra', 'Barra', 1, 1, 1, 1, 1, 1, 0, 0, 0, 4
+	SELECT 'Barra', 'Barra', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 4
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2317,7 +2317,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Cocina', 'Cocina', 1, 1, 1, 1, 1, 1, 0, 0, 0, 4
+	SELECT 'Cocina', 'Cocina', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 4
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2361,7 +2361,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Barra', 'Barra', 1, 1, 1, 1, 1, 1, 0, 0, 0, 5
+	SELECT 'Barra', 'Barra', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 5
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2375,7 +2375,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Cocina', 'Cocina', 1, 1, 1, 1, 1, 1, 0, 0, 0, 5
+	SELECT 'Cocina', 'Cocina', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 5
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2419,7 +2419,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Barra', 'Barra', 1, 1, 1, 1, 1, 1, 0, 0, 0, 6
+	SELECT 'Barra', 'Barra', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 6
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2433,7 +2433,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Cocina', 'Cocina', 1, 1, 1, 1, 1, 1, 0, 0, 0, 6
+	SELECT 'Cocina', 'Cocina', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 6
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2477,7 +2477,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Barra', 'Barra', 1, 1, 1, 1, 1, 1, 0, 0, 0, 7
+	SELECT 'Barra', 'Barra', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 7
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2491,7 +2491,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Cocina', 'Cocina', 1, 1, 1, 1, 1, 1, 0, 0, 0, 7
+	SELECT 'Cocina', 'Cocina', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 7
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2535,7 +2535,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Barra', 'Barra', 1, 1, 1, 1, 1, 1, 0, 0, 0, 8
+	SELECT 'Barra', 'Barra', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 8
 	WHERE NOT EXISTS
 	(
 		SELECT 1
@@ -2549,7 +2549,7 @@ SELECT @idTipoPreparacion = Id FROM [igtpos].[dbo].PreparationType WHERE [Name] 
 
 IF @idTipoPreparacion IS NOT NULL
 	INSERT INTO [igtpos].[dbo].KitchenPrinter
-	SELECT 'Cocina', 'Cocina', 1, 1, 1, 1, 1, 1, 0, 0, 0, 8
+	SELECT 'Cocina', 'Cocina', 1, 1, 0, 1, 1, 1, 0, 1, NULL, 8
 	WHERE NOT EXISTS
 	(
 		SELECT 1

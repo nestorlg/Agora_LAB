@@ -43,7 +43,7 @@ Paso 2: Inserción de los monitores de cocina en la tabla [igtpos].[dbo].Kitchen
 if nDisplay == 1:
     query += (
         "INSERT INTO [igtpos].[dbo].KitchenDisplay\n"
-        "SELECT 'Cocina', NULL, 1, 1, 0, 0, 0, 3, 1, 0, '[]', 'Cocina', 0, 1, 1, 1\n"
+        "SELECT 'Cocina', NULL, 1, 1, 0, 0, 0, 3, 1, 0, '[]', 'Cocina', 0, 1, 1, 1, 1\n"
         "WHERE NOT EXISTS\n"
         "(\n"
         "\tSELECT 1\n"
@@ -194,7 +194,7 @@ else:
         for i in range(1, nDisplay + 1):
             query += (
                 "INSERT INTO [igtpos].[dbo].KitchenDisplay\n"
-                "SELECT 'Cocina%d', NULL, 1, 1, 0, 0, 0, 3, 1, 0, '[]', 'Cocina', 0, 1, 1, 1\n"
+                "SELECT 'Cocina%d', NULL, 1, 1, 0, 0, 0, 3, 1, 0, '[]', 'Cocina', 0, 1, 1, 1, 1\n"
                 "WHERE NOT EXISTS\n"
                 "(\n"
                 "\tSELECT 1\n"

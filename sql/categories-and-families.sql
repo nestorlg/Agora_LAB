@@ -23,7 +23,7 @@ WHERE NOT EXISTS
 
 SET @familia = 'CAVAS Y CHAMPAGNES';
 SET @categoria = @familia;
-SET @rutaImagen = 'C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\cavas-y-champagnes.jpg';
+SET @rutaImagen = 'C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\cavas-y-champagnes.jpg';
 SET @textoBoton = 'C&C';
 SET @saleableProducts = 0;
 
@@ -307,7 +307,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\cavas-y-champagnes.jpg'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\cavas-y-champagnes.jpg'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
@@ -349,7 +349,7 @@ END
 
 SET @familia = 'PIZZAS';
 SET @categoria = @familia;
-SET @rutaImagen = 'C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\pizzas.jpg';
+SET @rutaImagen = 'C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\pizzas.jpg';
 SET @textoBoton = 'PIZZAS';
 SET @saleableProducts = 0;
 
@@ -633,7 +633,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\pizzas.jpg'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\pizzas.jpg'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
@@ -675,7 +675,7 @@ END
 
 SET @familia = 'REFRESCOS';
 SET @categoria = @familia;
-SET @rutaImagen = 'C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\refrescos.jpg';
+SET @rutaImagen = 'C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\refrescos.jpg';
 SET @textoBoton = 'REFRESCOS';
 SET @saleableProducts = 0;
 
@@ -959,7 +959,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\refrescos.jpg'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\refrescos.jpg'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
@@ -1001,7 +1001,7 @@ END
 
 SET @familia = 'VODKAS';
 SET @categoria = @familia;
-SET @rutaImagen = 'C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\vodkas.jpg';
+SET @rutaImagen = 'C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\vodkas.jpg';
 SET @textoBoton = 'VODKAS';
 SET @saleableProducts = 0;
 
@@ -1285,7 +1285,7 @@ WHERE NOT EXISTS
 
 SET @SQL_QUERY = N'
 SELECT @contenidoImagen = BulkColumn
-FROM OPENROWSET(BULK ''C:\Users\Nest\Desktop\infogral\dist-maker (local)\en-desarrollo\imagenesAgora\categorias-carta-digital\vodkas.jpg'', SINGLE_BLOB) AS ImagenBinaria
+FROM OPENROWSET(BULK ''C:\Users\nesto\Desktop\Agora_LAB\imagenesAgora\categorias-carta-digital\vodkas.jpg'', SINGLE_BLOB) AS ImagenBinaria
 WHERE BulkColumn IS NOT NULL;';
 
 EXEC sp_executesql @SQL_QUERY, N'@contenidoImagen VARBINARY (MAX) OUTPUT', @contenido OUTPUT;
